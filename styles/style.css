@@ -21,7 +21,7 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   display: flex;
 }
 
@@ -31,8 +31,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-  width: 568px;
-  height: 568px;
   background-color: #2f80ed;
 }
 
@@ -188,7 +186,7 @@
   min-height: 600px;
   max-height: 792px;
   position: relative;
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   padding-top: 100px;
 }
 
