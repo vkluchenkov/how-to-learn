@@ -9,11 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* Mix */
-.reset-margins {
-  margin: 0;
-}
-
 /* Header */
 
 .header {
@@ -67,6 +62,7 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 2;
+  margin: 0;
 }
 
 .header__link {
@@ -89,6 +85,8 @@
 
 .description {
   display: flex;
+  padding: 100px 0 0;
+
 }
 
 .two-columns {
@@ -104,7 +102,7 @@
   line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
-  padding: 100px 0 0;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -112,11 +110,10 @@
   min-width: 784px;
   font-size: 24px;
   line-height: 34px;
-  padding: 100px 0 0;
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 }
 
 .two-columns__paragraph:last-child {
@@ -147,7 +144,7 @@
 .section-subtitle {
   display: block;
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -160,6 +157,8 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
 }
 
 .table__cell_theme_light {
@@ -171,20 +170,19 @@
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
   font-size: 18px;
   line-height: 1.2;
-  margin-top: 20px;
+  margin: 20px 0 0;
 }
 
 /* Feynman */
 
 .feynman {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 792px;
+  min-height: 890px;
   position: relative;
   background-color: #f2f2f2;
   padding-top: 100px;
@@ -207,7 +205,7 @@
   line-height: 51px;
   text-align: center;
   font-weight: normal;
-  margin-top: 70px;
+  margin: 70px 0 0;
   z-index: 1;
 }
 
@@ -230,6 +228,7 @@
   text-decoration: none;
   color: #2f80ed;
   z-index: 2;
+  margin: 0;
 }
 
 /* Kaufman */
@@ -278,6 +277,7 @@
   background-color: #1f1f1f;
   min-height: 350px;
   padding: 60px 0 40px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -292,7 +292,7 @@
   flex-direction: column;
 }
 
-.footer__column_content_copyrigh {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
@@ -316,7 +316,13 @@
   line-height: 30px;
   font-weight: bold;
   color: white;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+}
+
+.footer__column-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer__column-links {
