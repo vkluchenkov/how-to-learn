@@ -319,18 +319,10 @@
   margin: 0 0 20px;
 }
 
-.footer__column-list {
+.footer__column-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.footer__column-links {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
-  text-decoration: none;
-  color: white;
 }
 
 .footer__column-link {
