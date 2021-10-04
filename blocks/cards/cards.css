@@ -7,35 +7,3 @@
   padding: 0;
   list-style-type: none;
 }
-
-.cards__item {
-  width: 240px;
-  margin: 0 100px 0 0;
-}
-
-.cards__item:nth-of-type(3) {
-  margin: 0;
-}
-
-.cards__image {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  margin: 60px 40px 43px;
-}
-
-.cards__title {
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 0 16px;
-}
-
-.cards_description {
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: normal;
-  text-align: center;
-  margin: 0;
-}

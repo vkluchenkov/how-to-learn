@@ -7,16 +7,3 @@
   padding: 0;
   list-style-type: none;
 }
-
-.table__heading {
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: bold;
-  margin: 0;
-}
-
-.table__text {
-  font-size: 18px;
-  line-height: 1.2;
-  margin: 20px 0 0;
-}

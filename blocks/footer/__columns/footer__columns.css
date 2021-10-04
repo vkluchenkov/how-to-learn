@@ -1,6 +1,6 @@
-.two-columns {
+.footer__columns {
   display: flex;
-  width: 80%;
-  margin: auto;
   justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
 }
